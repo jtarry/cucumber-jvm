@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 120732664,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.rosetta.ParserSteps.theGameParser(ParserSteps.java:12)\n\tat ✽.Given the game parser(parser.feature:4)\n",
+              "status": "pending"
+            },
+            "line": 4,
+            "name": "the game parser",
+            "match": {
+              "location": "ParserSteps.theGameParser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Parse a valid single word command",
+        "description": "",
+        "id": "parsing-user-input;parse-a-valid-single-word-command",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the command \"inventory\" is parsed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inventory",
+                  "offset": 13
+                }
+              ],
+              "location": "ParserSteps.theCommandIsParsed(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the verb is \"inventory\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inventory",
+                  "offset": 13
+                }
+              ],
+              "location": "ParserSteps.theVerbIs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "there is no direct object",
+            "match": {
+              "location": "ParserSteps.thereIsNoDirectObject()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the parser response is \"Success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success",
+                  "offset": 24
+                }
+              ],
+              "location": "ParserSteps.theParserResponseIs(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Parsing User Input",
+    "description": "",
+    "id": "parsing-user-input",
+    "keyword": "Ability",
+    "uri": "parser.feature"
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.120733">
+<testcase classname="Parsing User Input" name="Parse a valid single word command" time="0.120733">
+<skipped><![CDATA[Given the game parser.......................................................pending
+When the command "inventory" is parsed......................................skipped
+Then the verb is "inventory"................................................skipped
+And there is no direct object...............................................skipped
+And the parser response is "Success"........................................skipped
+]]></skipped>
+</testcase>
+</testsuite>
